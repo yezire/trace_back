@@ -1,8 +1,12 @@
 HELP.md
 target/
+target/*
+target
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+/src/main/java/Test.java
+
 
 ### STS ###
 .apt_generated
@@ -15,6 +19,7 @@ target/
 
 ### IntelliJ IDEA ###
 .idea
+.idea/*
 *.iws
 *.iml
 *.ipr
